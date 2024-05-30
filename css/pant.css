@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-1{
+    box-shadow: 1px 1px 10px 1px black;
+}
+.navbar{
+    height: 45px;
+}
+form > img{
+    width: 30px;
+    margin-left: 420px;
+    margin-top: -60px;
+}
+.container-0 input{
+    width: 1300px;
+    height: 50px;
+    box-shadow: 0px 0px 3px 1px rgb(20, 20, 20);
+    border-top: none;
+    outline: none;
+    margin:30px 30px 30px 0px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+@media (max-width: 1400px){
+    .container-0 input{
+        width: 1100px;
+    }
+}
+@media (max-width: 1200px){
+    .container-0 input{
+        width: 700px;
+    }
+}
+@media (max-width: 770px){
+    .container-0 input{
+        width: 510px;
+    }
+}
+.collapse>ul{
+    margin: auto;
+}
+.collapse>ul>li{
+    margin-left: 100px;
+}
+:hover >a{
+    border-bottom: 1px solid;
+}
+.card{
+    box-shadow: 2px 6px 9px 0px black;
+}
+.star{
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+.star i{
+    font-size: 20px;
+    color: gold;
+}
+.star .i-1:hover{
+    color: rgb(130, 231, 23);
+}
+.star .i-2:hover{
+    color: rgb(130, 231, 23);
+}
+.star .i-3:hover{
+    color: rgb(130, 231, 23);
+}
+.star .i-4:hover{
+    color: rgb(130, 231, 23);
+}
+.star .i-5:hover{
+    color: rgb(130, 231, 23);
+}
+.wrapper{
+    width: 120px;
+    height: 35px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: -36px;
+    font-weight: 500;
+}
+.click {
+    height: 35px;
+    min-width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(225, 225, 225);
+    border-radius: 9px;
+    cursor: pointer;
+}
+.click span{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600px;
+}
+.click span.plus{
+    
+    font-size: 20px;
+    border-left: 2px solid rgba(0,0,0,0.2);
+}
+.click span.minus{
+    
+    font-size: 20px;
+    border-right: 2px solid rgba(0,0,0,0.2);
+}
